@@ -16,7 +16,9 @@ class _RegisterscreenState extends State<Registerscreen> {
       appBar: AppBar(title: Text("Stateful Scaffold")),
       body: SafeArea(
         child: Center(
-          child: Column(
+          child:
+          Padding(padding: EdgeInsets.all(8.0),child:
+          Column(
             children: [
               TextFormField(
                 decoration: InputDecoration(labelText: "Email id"),
@@ -37,6 +39,7 @@ class _RegisterscreenState extends State<Registerscreen> {
               ElevatedButton(onPressed: () {}, child: Text("Sumbit")),
             ],
           ),
+        ),
         ),
       ),
     );
