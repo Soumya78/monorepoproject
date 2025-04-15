@@ -29,6 +29,8 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   freezed: ^3.0.6
+  riverpod: ^2.6.1
+  hooks_riverpod: ^2.6.1
 
   flutter:
     sdk: flutter
