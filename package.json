@@ -1,0 +1,21 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "packageManager": "npm@10.9.2",
+  "workspaces": ["apps/*"], 
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run start",
+    "dev:frontend": "cd apps/frontend && open -a simulator && flutter run",
+    "dev:backend": "cd apps/backend && npm run dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
