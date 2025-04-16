@@ -33,7 +33,7 @@ class Registerscreen extends ConsumerWidget {
                   controller: _passwordcontroller,
                 ),
 
-                SizedBox(height: 10),
+                SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () async {
                     final registermodel = RegisterModel(
