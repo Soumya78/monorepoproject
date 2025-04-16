@@ -1,9 +1,0 @@
-workflows:
-  version: 2
-  build:
-    jobs:
-      - flutter-build:
-          name: Build Android and iOS
-          macos: true
-          ios: true
-          android: true

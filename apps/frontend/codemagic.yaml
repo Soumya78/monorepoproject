@@ -1,0 +1,10 @@
+workflows:
+  flutter-build:
+    name: Flutter build workflow
+    max_build_duration: 60
+    scripts:
+      - flutter pub get
+      - flutter build apk
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+
