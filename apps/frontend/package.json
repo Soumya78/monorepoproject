@@ -1,7 +1,10 @@
 {
     "name": "frontend",
     "scripts": {
-      "start": "flutter run"
+        "start": "flutter run",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^6.3.0"
     }
-  }
-  
+}
