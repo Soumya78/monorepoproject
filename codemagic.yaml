@@ -5,7 +5,7 @@ workflows:
     scripts:
       - flutter channel stable
       - flutter upgrade
-      - flutter pub get
+      - flutter pub get --verbose
       - flutter build apk --release
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
