@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/businesslayer/provider/registerapiprovider.dart';
 import 'package:frontend/datalayer/model/registermodel.dart';
+import 'package:frontend/utils/routes.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod/riverpod.dart';
 
 class Registerscreen extends ConsumerWidget {
-  TextEditingController _emailcontroller = TextEditingController();
-  TextEditingController _usernamecontroller = TextEditingController();
-  TextEditingController _passwordcontroller = TextEditingController();
+  final _emailcontroller = TextEditingController();
+  final _usernamecontroller = TextEditingController();
+  final _passwordcontroller = TextEditingController();
 
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
@@ -36,15 +37,25 @@ class Registerscreen extends ConsumerWidget {
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () async {
-                    final registermodel = RegisterModel(
+                    final registermodel = RegisterModel(      // passing the data to registermodel
                       emailid: _emailcontroller.text,
                       password: _passwordcontroller.text,
                       username: _usernamecontroller.text,
                     );
-                    await ref
-                        .read(registerprovider.notifier)
+
+                    final isuscess = await ref         // accessing the values incase of success or dailure
+                        .watch(registerprovider.notifier)
                         .registerapi(registermodel);
+
+                    if (isuscess) {
+                      context.go(loginroute);
+                    } else {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Registration unsuccessfull")),
+                      );
+                    }
                   },
+
                   child: Text("Sumbit"),
                 ),
               ],

@@ -5,6 +5,7 @@ const checkuserexists = async function (req, res, next) {
 const {emailid} = req.body;
 try{
 const exisitinguser = await model.findOne({emailid:emailid})
+console.log("checking for user");
 if(exisitinguser){
 return res.status(400).json({message:"User already exists"})
 }

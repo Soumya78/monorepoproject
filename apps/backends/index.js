@@ -2,18 +2,21 @@
 const express = require('express');
 
 const registerroutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/authroutes.js');
+const loginroutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/loginroutes.js');
 const app = express();
-const bodyparser = require('body-parser');
+
 const connectdb = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/db.js');
 
 
-app.use(express.json());
-connectdb();
+app.use(express.json()); // for parsing application/json
+connectdb();//for connecting to the database
 
-app.use("/register",registerroutes)
-console.log('______');
+app.use("/register", registerroutes) //for registering the user
+
+app.use("/login", loginroutes) //for logging in the user
 
 
 
 
-app.listen(3000, () => {console.log('Server is running on port 3000')});
+
+app.listen(3000, () => { console.log('Server is running on port 3000') });

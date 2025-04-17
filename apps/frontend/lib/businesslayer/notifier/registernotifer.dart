@@ -7,13 +7,14 @@ import '../../utils/strings.dart';
 import 'package:http/http.dart' as http;
 
 class Registernotifier extends AutoDisposeAsyncNotifier<RegisterModel> {
+
   @override
   Future<RegisterModel> build() {
     // TODO: implement build
     throw UnimplementedError();
   }
 
-  Future<void> registerapi(RegisterModel registermodel) async {
+Future<bool> registerapi(RegisterModel registermodel) async {
     Uri registerurl = Uri.parse(baseurl + registerendpoint);
 
     try {
@@ -24,14 +25,14 @@ class Registernotifier extends AutoDisposeAsyncNotifier<RegisterModel> {
       );
 
       if (response.statusCode == 201) {
-        print(response.body);
+       return true ;
       } else if (response.statusCode == 400) {
-        print("User already exists");
+    return false ;
       } else {
-        print("Something went wrong");
+      return false ;
       }
     } catch (e) {
-      print(e.toString());
+     return false ;
     }
   }
 }

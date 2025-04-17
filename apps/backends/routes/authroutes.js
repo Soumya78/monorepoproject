@@ -9,9 +9,14 @@ const genratetoken = require('/Users/soumya/Documents/my-monorepo/apps/backends/
 const hashspassword = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/hashpassword.js');
 const saveusertodb = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/saveusertodb.js');
 const validateregisterfield = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/validateregisterfields.js');
+const loginusermiddleware = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware.js')
 router.post('/',exisitinguser,genratetoken,hashspassword,saveusertodb,
-    validateregisterfield);
- 
+    validateregisterfield);  
+    console.log('checking');
+     ///register route
+
+    //<-------------------------------->//
+ router.post('/',loginusermiddleware);
 
 
 module.exports = router;

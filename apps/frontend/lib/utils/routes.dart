@@ -1,2 +1,2 @@
 String initalroute = "/";
-String registerroute = "/registerroute";
+String loginroute = "/loginroute";
