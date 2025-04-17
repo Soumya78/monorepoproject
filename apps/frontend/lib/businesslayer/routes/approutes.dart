@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:frontend/presentationlayer/views/loginscreen.dart';
+import 'package:frontend/presentationlayer/views/otpscreen.dart';
 
 import 'package:go_router/go_router.dart';
 
@@ -19,6 +20,13 @@ final GoRouter route = GoRouter(
       path: loginroute,
       builder: (BuildContext context, GoRouterState state) {
         return Loginscreen();
+      },
+    ),
+
+    GoRoute(
+      path: otproute,
+      builder: (BuildContext context, GoRouterState state) {
+        return Otpscreen();
       },
     ),
   ],

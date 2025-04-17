@@ -4,11 +4,12 @@ part 'loginmodel.g.dart';
 
 
 @freezed
-abstract class Loginmodel with _$Loginmodel {
-  const factory Loginmodel ({
+abstract class LoginModel with _$LoginModel {
+  const factory LoginModel ({
     required String emailid,
     required String password,
-  }) = _Loginmodel ;
+  }) = _LoginModel ;
 
-  factory Loginmodel.fromJson(Map<String, dynamic> json) => _$LoginmodelFromJson(json);
+  factory LoginModel.fromJson(Map<String, dynamic> json) => _$LoginModelFromJson(json);
+
 }

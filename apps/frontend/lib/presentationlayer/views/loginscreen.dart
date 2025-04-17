@@ -1,18 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/businesslayer/provider/loginprovider.dart';
+import 'package:frontend/datalayer/model/login/loginmodel.dart';
+import 'package:frontend/utils/routes.dart';
+import 'package:go_router/go_router.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class Loginscreen extends StatefulWidget {
-
+class Loginscreen extends ConsumerStatefulWidget {
   final TextEditingController _emailcontroller = TextEditingController();
- final  TextEditingController _usernamecontroller = TextEditingController();
-final   TextEditingController _passwordcontroller = TextEditingController();
 
-
+  final TextEditingController _passwordcontroller = TextEditingController();
 
   @override
-  _LoginscreenState createState() => _LoginscreenState();
+  ConsumerState<Loginscreen> createState() => _LoginscreenState();
 }
 
-class _LoginscreenState extends State<Loginscreen> {
+class _LoginscreenState extends ConsumerState<Loginscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +34,25 @@ class _LoginscreenState extends State<Loginscreen> {
               ),
 
               SizedBox(height: 10),
-              ElevatedButton(onPressed: () {}, child: Text("Sumbit")),
+              ElevatedButton(
+                onPressed: () async {
+                  final loginmodel = LoginModel(
+                    emailid: widget._emailcontroller.text,
+                    password: widget._passwordcontroller.text,
+                  );
+                  final loginsucess = await ref.watch(
+                    loginprovider(loginmodel).future,
+                  );
+                  if (loginsucess) {
+                    context.go(otproute);
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text("Login unsuccesfull")),
+                    );
+                  }
+                },
+                child: Text("Sumbit"),
+              ),
             ],
           ),
         ),
