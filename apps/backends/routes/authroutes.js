@@ -10,13 +10,14 @@ const hashspassword = require('/Users/soumya/Documents/my-monorepo/apps/backends
 const saveusertodb = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/saveusertodb.js');
 const validateregisterfield = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/validateregisterfields.js');
 const loginusermiddleware = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware.js')
-router.post('/',exisitinguser,genratetoken,hashspassword,saveusertodb,
+const sendusertoqueue = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/sendusertoqueue/sendusertoqueue.js');
+router.post('/',exisitinguser,genratetoken,hashspassword,saveusertodb,sendusertoqueue,
     validateregisterfield);  
     console.log('checking');
      ///register route
 
     //<-------------------------------->//
- router.post('/',loginusermiddleware);
+
 
 
 module.exports = router;

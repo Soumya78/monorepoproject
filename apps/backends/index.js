@@ -6,10 +6,13 @@ const loginroutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/r
 const app = express();
 
 const connectdb = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/db.js');
+const {connecttorabbit} = require('/Users/soumya/Documents/my-monorepo/apps/backends/services/notifcationservice/notificationservice.js');
 
 
 app.use(express.json()); // for parsing application/json
 connectdb();//for connecting to the database
+connecttorabbit();
+
 
 app.use("/register", registerroutes) //for registering the user
 

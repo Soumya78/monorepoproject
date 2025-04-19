@@ -15,6 +15,7 @@ module.exports = (req, res, next) => {
     });
 
     req.body.secret = token;
+    console.log('Generated token:', token);
     next();
   } catch (err) {
     console.error('Token generation error:', err);
