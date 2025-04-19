@@ -1,4 +1,4 @@
-const saveusertodb = require("/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/saveusertodb.js");
+const saveusertodb = require("../registermiddleware/saveusertodb.js");
 const {getchannel} = require("/Users/soumya/Documents/my-monorepo/apps/backends/services/notifcationservice/notificationservice.js");
 
 const sendusertoqueue = async function (req, res, next) {
