@@ -1,5 +1,6 @@
 const {PrismaClient} = require("/Users/soumya/Documents/my-monorepo/apps/backends/generated/prisma")
 const prisma = new PrismaClient();  
+const{otpservice} = require('/Users/soumya/Documents/my-monorepo/apps/backends/services/otpservice.js')
 
 const generateotp = ()=>Math.floor(100000 + Math.random() * 900000).toString();
 
@@ -20,6 +21,8 @@ const handleotpgeneration = async function(req,res,next){
        
       });
       req.otp = otp 
+      await otpservice(phone,otp);
+      console.log("OTP sent successfully");
       next();
    }catch(err){
        console.log(err);

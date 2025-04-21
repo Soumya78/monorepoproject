@@ -1,3 +1,4 @@
 String initalroute = "/";
-String loginroute = "/loginroute";
-String otproute = "/otproute";
+String loginroute = "/login";
+String otproute = "/otp";
+String dashboardroute = "/dashboard";

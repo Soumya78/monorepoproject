@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:frontend/presentationlayer/views/dashboardscreen.dart';
 import 'package:frontend/presentationlayer/views/loginscreen.dart';
 import 'package:frontend/presentationlayer/views/otpscreen.dart';
 
@@ -13,7 +14,7 @@ final GoRouter route = GoRouter(
     GoRoute(
       path: initalroute,
       builder: (BuildContext context, GoRouterState state) {
-        return Mainview();
+        return Loginscreen();
       },
     ),
     GoRoute(
@@ -27,6 +28,12 @@ final GoRouter route = GoRouter(
       path: otproute,
       builder: (BuildContext context, GoRouterState state) {
         return Otpscreen();
+      },
+    ),
+    GoRoute(
+      path: dashboardroute,
+      builder: (BuildContext context, GoRouterState state) {
+        return Dashboardscreen();
       },
     ),
   ],

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:frontend/datalayer/model/login/loginmodel.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:http/http.dart' as http;
@@ -12,6 +13,7 @@ final loginprovider = AutoDisposeFutureProvider.family<bool, LoginModel>((
   loginmodel,
 ) async {
   try {
+    final _storgae = FlutterSecureStorage();
     Uri loginurl = Uri.parse(baseurl + loginendpoint);
     final response = await http.post(
       loginurl,
@@ -20,6 +22,15 @@ final loginprovider = AutoDisposeFutureProvider.family<bool, LoginModel>((
     );
 
     if (response.statusCode == 200) {
+      final data = jsonDecode(response.body);
+      print(data);
+      final token = data['token'];
+      print(token);
+      await _storgae.write(key: 'auth_token', value: token);
+
+      /// Stroting the token generated during
+      /// login here in flutter securte storgae
+
       return true;
     } else {
       return false;
