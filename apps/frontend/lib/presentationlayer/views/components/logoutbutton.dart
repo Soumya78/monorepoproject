@@ -15,9 +15,9 @@ class LogoutButton extends ConsumerWidget {
       print(resposne);
       if (resposne) {
         // Logout successful, navigate to login
-        if (context.mounted) {
+
           context.go(loginroute);
-        }
+
       } else {
         // Show logout failure
         if (context.mounted) {

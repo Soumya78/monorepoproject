@@ -5,7 +5,7 @@ module.exports = async (req, res, next) => {
     const { password } = req.body;
     const hash = await bcrypt.hash(password, 10);
     req.body.password = hash;
-    console.log('Hashed password:', hash);
+
     next();
   } catch (err) {
     console.error('Error hashing password:', err);

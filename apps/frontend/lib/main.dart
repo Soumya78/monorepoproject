@@ -7,9 +7,11 @@ void main() {
   runApp(ProviderScope(child: MyApp()));
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends ConsumerWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+
+    final route = ref.watch(routerprovider);
     return MaterialApp.router(routerConfig: route,);
   }
 }

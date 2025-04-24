@@ -48,8 +48,9 @@ class Registerscreen extends ConsumerWidget {
                         .registerapi(registermodel);
 
                     if (isuscess) {
+                      if(context.mounted){
                       context.go(loginroute);
-                    } else {
+                    } }else {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(content: Text("Registration unsuccessfull")),
                       );

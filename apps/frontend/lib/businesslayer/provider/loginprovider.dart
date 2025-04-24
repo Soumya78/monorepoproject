@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:frontend/businesslayer/provider/authtokenprovider.dart';
 import 'package:frontend/datalayer/model/login/loginmodel.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:http/http.dart' as http;
@@ -27,6 +28,7 @@ final loginprovider = AutoDisposeFutureProvider.family<bool, LoginModel>((
       final token = data['token'];
       print(token);
       await _storgae.write(key: 'auth_token', value: token);
+      ref.read(authtokenprovider.notifier).settoken(token);
 
       /// Stroting the token generated during
       /// login here in flutter securte storgae

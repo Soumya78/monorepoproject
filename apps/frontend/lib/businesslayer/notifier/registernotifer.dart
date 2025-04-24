@@ -1,6 +1,9 @@
 import 'dart:convert';
 
+import 'package:frontend/businesslayer/notifier/authtokennotifier.dart';
+import 'package:frontend/businesslayer/provider/authtokenprovider.dart';
 import 'package:frontend/datalayer/model/registermodel.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod/riverpod.dart';
 
 import '../../utils/strings.dart';
@@ -25,6 +28,12 @@ Future<bool> registerapi(RegisterModel registermodel) async {
       );
 
       if (response.statusCode == 201) {
+        final responsetoken = jsonDecode(response.body);
+        final token = responsetoken["token"];
+      if(token != null){
+      await ref.read(authtokenprovider.notifier).settoken(token);
+      }
+        print("Token from response: $token");
        return true ;
       } else if (response.statusCode == 400) {
     return false ;

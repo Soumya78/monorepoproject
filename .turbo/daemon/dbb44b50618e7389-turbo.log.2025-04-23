@@ -1,0 +1,706 @@
+2025-04-23T09:21:19.580598Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/1.cookie"), AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie")}
+2025-04-23T09:21:19.580606Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T09:21:26.586088Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.flutter-plugins"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/dartpad/web_plugin_registrant.dart"), AnchoredSystemPathBuf("apps/frontend/.flutter-plugins-dependencies")}
+2025-04-23T09:21:26.586695Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:26.681373Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/linux/flutter/generated_plugin_registrant.cc"), AnchoredSystemPathBuf("apps/frontend/windows/flutter/generated_plugin_registrant.h"), AnchoredSystemPathBuf("apps/frontend/macos/Flutter/GeneratedPluginRegistrant.swift"), AnchoredSystemPathBuf("apps/frontend/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java"), AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp"), AnchoredSystemPathBuf("apps/frontend/ios/Runner/GeneratedPluginRegistrant.m"), AnchoredSystemPathBuf("apps/frontend/linux/flutter/generated_plugin_registrant.h"), AnchoredSystemPathBuf("apps/frontend/linux/flutter/generated_plugins.cmake"), AnchoredSystemPathBuf("apps/frontend/windows/flutter/generated_plugin_registrant.cc"), AnchoredSystemPathBuf("apps/frontend/windows/flutter/generated_plugins.cmake"), AnchoredSystemPathBuf("apps/frontend/ios/Runner/GeneratedPluginRegistrant.h")}
+2025-04-23T09:21:26.681387Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:26.704687Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:26.780691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_dart_plugin_registrant.stamp"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/dart_plugin_registrant.dart")}
+2025-04-23T09:21:26.780730Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:26.791971Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:30.480554Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/ios/Runner.xcodeproj/project.pbxproj")}
+2025-04-23T09:21:30.480570Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:30.480625Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:32.280341Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.flutter-plugins-dependencies"), AnchoredSystemPathBuf("apps/frontend/ios/Flutter/flutter_export_environment.sh"), AnchoredSystemPathBuf("apps/frontend/ios/Flutter/Generated.xcconfig")}
+2025-04-23T09:21:32.280352Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:32.313295Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:37.185322Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/gen_localizations.stamp")}
+2025-04-23T09:21:37.185666Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:37.185723Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:38.480099Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/app.dill"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/kernel_snapshot_program.d")}
+2025-04-23T09:21:38.480108Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:38.564004Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:38.580100Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/kernel_snapshot_program.d")}
+2025-04-23T09:21:38.580107Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:38.580145Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:39.180574Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/kernel_snapshot_program.stamp")}
+2025-04-23T09:21:39.180582Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:39.180636Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:39.580687Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/vm_snapshot_data"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/App"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/isolate_snapshot_data"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin")}
+2025-04-23T09:21:39.580696Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:39.586738Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:39.680288Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/AssetManifest.bin"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/NativeAssetsManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/AssetManifest.json")}
+2025-04-23T09:21:39.680298Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:39.737958Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:39.780107Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/FontManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/NativeAssetsManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/NOTICES.Z"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/AssetManifest.bin"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/AssetManifest.json")}
+2025-04-23T09:21:39.780116Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:39.780155Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:40.279945Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/shaders/ink_sparkle.frag"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/shaders/ink_sparkle.frag.temp")}
+2025-04-23T09:21:40.279966Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:40.291505Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:40.380843Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/Info.plist"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/flutter_assets.d"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/shaders/ink_sparkle.frag.spirv.temp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/shaders/ink_sparkle.frag.spirv")}
+2025-04-23T09:21:40.380880Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:40.408218Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:40.779972Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/App.cstemp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/App.framework/App")}
+2025-04-23T09:21:40.779981Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:40.781502Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:41.180504Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/debug_ios_bundle_flutter_assets.stamp"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/outputs.json"), AnchoredSystemPathBuf("apps/frontend/.dart_tool/flutter_build/fcd6365ea4edf8b9d2f154c9022daffa/.filecache")}
+2025-04-23T09:21:41.180514Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:41.183975Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:41.280375Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Info.plist")}
+2025-04-23T09:21:41.280386Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:41.280434Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:42.780138Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.swiftmodule/arm64-apple-ios-simulator.abi.json")}
+2025-04-23T09:21:42.780152Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:42.793133Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:43.778953Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner.debug.dylib"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner")}
+2025-04-23T09:21:43.778964Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:43.779002Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.079844Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/.App.U9P8rZ"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/.CodeResources.JS5Ao4"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework")}
+2025-04-23T09:21:44.079853Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.126074Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.180459Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.AssetManifest.json.uzpime"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.bin"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/NOTICES.Z"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.kernel_blob.bin.VzGn2g"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/.CodeResources.JS5Ao4"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.FontManifest.json.UkbY35"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.AssetManifest.bin.Ddu7HO"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.NOTICES.Z.A5XZ2K"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json")}
+2025-04-23T09:21:44.180469Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.180518Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.279122Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.kernel_blob.bin.VzGn2g"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Info.plist"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders/.ink_sparkle.frag.TXRCdp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin")}
+2025-04-23T09:21:44.279136Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.316295Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.380156Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/.path_provider_foundation.l4mOcY"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature/.CodeResources.ZQcFWC"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/flutter_secure_storage.cstemp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/.flutter_secure_storage.dabkvP"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/flutter_secure_storage"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/flutter_secure_storage.lipo"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature/.CodeResources.afEZn3"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation")}
+2025-04-23T09:21:44.380169Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.434382Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.480501Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation.lipo"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation.cstemp")}
+2025-04-23T09:21:44.480510Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.480562Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:44.579999Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner.debug.dylib"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/__preview.dylib.cstemp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner.debug.dylib.cstemp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/__preview.dylib")}
+2025-04-23T09:21:44.580007Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:44.580045Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:45.079540Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner.cstemp"), AnchoredSystemPathBuf("apps/frontend/build/ios/Debug-iphonesimulator/Runner.app/Runner")}
+2025-04-23T09:21:45.079549Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:45.098395Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:45.478769Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/.CodeResources.HHynMi"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.AssetManifest.bin.uXu0Hm"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Runner.debug.dylib"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/.Runner.WgTAHy"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.kernel_blob.bin.p91hoj"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.AssetManifest.json.hORZpZ"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/__preview.dylib"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/.App.KgwJL5"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Info.plist"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.bin"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.FontManifest.json.OWMozA"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/.Info.plist.3LJiT8"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.NOTICES.Z.udKmQF"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/.__preview.dylib.KxoEN4"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/NOTICES.Z"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/.Runner.debug.dylib.ReMbbY"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Runner")}
+2025-04-23T09:21:45.478786Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:45.506267Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:45.679953Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/.flutter_secure_storage.oQ4FmC"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders/.ink_sparkle.frag.gnen1z"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/.kernel_blob.bin.p91hoj"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/.path_provider_foundation.zWozRv"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature/.CodeResources.PbPIX3"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature/.CodeResources.T4zLIP"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/_CodeSignature"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/_CodeSignature/.CodeResources.brjvI2"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/_CodeSignature/CodeResources"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/flutter_secure_storage.framework/flutter_secure_storage"), AnchoredSystemPathBuf("apps/frontend/build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation")}
+2025-04-23T09:21:45.679968Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:45.687793Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:55.213866Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/cache.dill.track.dill")}
+2025-04-23T09:21:55.215811Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:55.309749Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:21:55.309834Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/cache.dill.track.dill")}
+2025-04-23T09:21:55.309838Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:21:55.309878Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:22:29.391221Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".idea/workspace.xml~"), AnchoredSystemPathBuf(".idea/workspace.xml")}
+2025-04-23T09:22:29.392697Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T09:23:14.885311Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/lib/utils/strings.dart"), AnchoredSystemPathBuf("apps/frontend/lib/utils/strings.dart~")}
+2025-04-23T09:23:14.887810Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:23:21.689634Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-23T09:23:21.690925Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:23:21.773317Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:24:41.980807Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-23T09:24:41.981460Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-23T09:24:41.982142Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T09:25:38.075503Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".idea/workspace.xml"), AnchoredSystemPathBuf(".idea/workspace.xml~")}
+2025-04-23T09:25:38.076814Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T09:47:36.552948Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/services/docker-compose.kafka.yml")}
+2025-04-23T09:47:36.554300Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T09:48:01.546089Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/services/docker-compose.kafka.yml")}
+2025-04-23T09:48:01.546117Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T09:48:43.844163Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/services/docker-compose.kafka.yml"), AnchoredSystemPathBuf("docker-compose.kafka.yml")}
+2025-04-23T09:48:43.844183Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T09:49:31.041796Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docker-compose.kafka.yml")}
+2025-04-23T09:49:31.041844Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T10:00:19.516837Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/package.json")}
+2025-04-23T10:00:19.517717Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:00:19.612068Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-04-23T10:00:19.612080Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-23T10:01:59.651123Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js"), AnchoredSystemPathBuf("apps/backends/kafka")}
+2025-04-23T10:01:59.652213Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:10.328439Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:10.328485Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:11.528681Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:11.528691Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:28.231226Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:28.231251Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:30.531972Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:30.531990Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:33.731936Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:33.731948Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:37.532561Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:37.532594Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:39.031554Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:39.031563Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:43.432812Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:43.432836Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:44.433253Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:44.433263Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:45.433364Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:45.433376Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:50.933250Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:50.933285Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:57.632699Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:57.632708Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:02:59.133118Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:02:59.133133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:03:03.832452Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:03:03.832473Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:03:05.232317Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:03:05.232327Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:03:16.932520Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:03:16.932561Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:12:51.261705Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafaprocuer.js")}
+2025-04-23T10:12:51.262591Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:09.103944Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafaprocuer.js"), AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:09.104125Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:27.402949Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:27.402973Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:28.602108Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:28.602119Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:30.002567Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:30.002579Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:31.801950Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:31.801959Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:31.802016Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T10:15:45.201785Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:45.201862Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:47.301751Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:47.301762Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:50.401496Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:50.401508Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:54.701887Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:54.701899Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:15:57.500944Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:15:57.500954Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:10.900757Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:10.900780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:13.701367Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:13.701377Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:19.700438Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:19.700457Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:23.700067Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:23.700080Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:27.699579Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:27.699587Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:28.699449Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:28.699466Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:29.799643Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:29.799654Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:45.598862Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:45.598906Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:52.498962Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:52.498982Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:54.399368Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:54.399377Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:16:56.498651Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:16:56.498667Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:05.398473Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:05.398501Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:07.197940Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:07.197949Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:11.598044Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:11.598061Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:13.596882Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:13.596898Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:14.898087Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:14.898110Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:19.197596Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:19.197613Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:20.498098Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:20.498125Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:36.697479Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:36.697582Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:39.197580Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:39.197593Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:17:43.697353Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:17:43.697363Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:01.296701Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:01.296735Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:06.194912Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:06.194920Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:08.795605Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:08.795614Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:11.295680Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:11.295698Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:31.794749Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:31.794853Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:33.495209Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:33.495218Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:35.293877Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:35.293887Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:37.093860Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:37.093868Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:18:53.493943Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:18:53.493983Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:00.494379Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:00.494398Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:03.193509Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:03.193520Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:07.493548Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:07.493564Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:13.093241Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:13.093257Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:31.892834Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:31.892855Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:36.092264Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:36.092277Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:41.792428Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:41.792438Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:43.491573Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:43.491582Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:19:47.291642Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:19:47.291660Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:20:00.991732Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:20:00.991754Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:20:03.491644Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:20:03.491656Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:20:08.590932Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:20:08.590941Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:22:53.284262Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:22:53.284282Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:22:56.283964Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:22:56.283979Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:00.484388Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:00.484399Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:02.583162Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:02.583173Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:07.483934Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:07.483962Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:14.583036Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:14.583058Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:16.483750Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:16.483765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:17.983078Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:17.983093Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:20.183660Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:20.183669Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:22.083256Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:22.083272Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:24.781921Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:24.781941Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:30.083149Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:30.083159Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:31.282227Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:31.282240Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:33.982330Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:33.982338Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:48.581886Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:48.581926Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:54.081584Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:54.081599Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:23:55.881294Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:23:55.881303Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:06.081015Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:06.081052Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:09.381663Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:09.381681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:09.425701Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T10:24:21.680861Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:21.680881Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:25.079567Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:25.079581Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:27.479369Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:27.479390Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:32.380080Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:32.380096Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:34.779701Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:34.779716Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:38.579316Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:38.579327Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:41.080150Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:41.080161Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:43.179682Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:43.179690Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:24:50.079608Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:24:50.079619Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:25:04.778785Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:25:04.778804Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:25:06.680430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:25:06.680444Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:25:08.381459Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:25:08.381470Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:31:52.582061Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:31:52.582665Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:31:55.574703Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:31:55.574720Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:32:13.675258Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:32:13.675328Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:32:16.473902Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:32:16.473911Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:32:19.673994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:32:19.674004Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:27.771041Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:27.771080Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:32.870989Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:32.871000Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:37.271213Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:37.271222Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:42.470605Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:42.470650Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:46.271358Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:46.271377Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:48.170292Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:48.170305Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:49.370631Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:49.370641Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:52.670334Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:52.670353Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:56.570447Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:56.570459Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:33:57.870619Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:33:57.870635Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:05.170480Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:05.170501Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:09.270537Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:09.270558Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:10.268794Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:10.268810Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:16.069919Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:16.069932Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:18.069994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:18.070026Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:20.469210Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:20.469223Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:23.268750Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:23.268767Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:26.669810Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:26.669819Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:30.268999Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:30.269009Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:54.668423Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:54.668441Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:34:56.568203Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:34:56.568215Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:35:07.367626Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:35:07.367649Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:35:22.267693Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:35:22.267719Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:35:43.465722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:35:43.465752Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:36:06.565288Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:36:06.565310Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:36:11.765166Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:36:11.765178Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:36:52.963899Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:36:52.963924Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:36:56.263036Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:36:56.263048Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:36:58.862383Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:36:58.862397Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:00.363192Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:00.363201Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:02.562873Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:02.562887Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:05.062702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:05.062720Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:06.263457Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:06.263469Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:08.063241Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:08.063250Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:22.361627Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:22.361652Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:24.261639Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:24.261656Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:25.962641Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:25.962650Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:37:47.360975Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:37:47.360997Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:06.960842Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:38:06.960854Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:08.359989Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T10:38:08.360007Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:21.459793Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:38:21.459806Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:23.159296Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:38:23.159305Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:34.159783Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:38:34.159797Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:36.959792Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:38:36.959813Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:38:39.458633Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:38:39.458646Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:39:32.857704Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:39:32.857728Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:42:14.262836Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:42:14.262862Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:42:17.961385Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/kafkaclient.js")}
+2025-04-23T10:42:17.961394Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:55:53.153327Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/config/model/transactions.js")}
+2025-04-23T10:55:53.160539Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:55:58.040935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/config/model/transactions.js")}
+2025-04-23T10:55:58.040951Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:02.435960Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer"), AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T10:59:02.436040Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:23.238927Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/producer"), AnchoredSystemPathBuf("apps/backends/kafka/producer/kafkaproducer.js"), AnchoredSystemPathBuf("apps/backends/kafka/kafkaproducer.js")}
+2025-04-23T10:59:23.238945Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:25.934066Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js"), AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T10:59:25.934075Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:54.034390Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T10:59:54.034414Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:55.133370Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T10:59:55.133379Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T10:59:56.633910Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T10:59:56.633919Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:02.333791Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:02.333814Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:04.533689Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:04.533698Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:11.433436Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:11.433447Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:12.634227Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:12.634235Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:13.833310Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:13.833323Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:15.033037Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:15.033047Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:28.933188Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:28.933209Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:30.933027Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:30.933040Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:34.032859Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:34.032868Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:35.133128Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:35.133137Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:36.631767Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:36.631780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:38.532950Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:38.532959Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:40.731941Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:40.731959Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:41.832631Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:41.832640Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:00:47.831512Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:00:47.831538Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:05.531840Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:05.531890Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:20.631184Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:20.631204Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:23.531489Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:23.531502Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:27.030508Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:27.030518Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:29.930762Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:29.930774Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:32.130470Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:32.130482Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:01:37.331229Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:01:37.331238Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:01.429494Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:01.429515Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:07.229443Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:07.229463Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:08.430178Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:08.430187Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:29.635341Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:29.635365Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:37.128683Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:37.128694Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:40.727970Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:40.728000Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:43.827990Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:43.828004Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:45.827938Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:45.827947Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:47.927855Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:47.927863Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:02:49.228309Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:02:49.228317Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:38.422642Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:38.422666Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:44.222628Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:44.222647Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:47.921192Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:47.921201Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:48.921987Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:48.921996Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:50.121218Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:50.121231Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:51.921543Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:51.921554Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:53.021668Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:53.021678Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:05:55.821341Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:05:55.821349Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:08:53.915510Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:08:53.915532Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:09:03.414754Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:09:03.414768Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:09:51.213141Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:09:51.213169Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:08.414205Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:08.414244Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:14.212218Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:14.212236Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:17.412766Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:17.412783Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:19.712430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:19.712510Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:26.011828Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:26.011839Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:31.012399Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:31.012430Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:32.812241Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:32.812252Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:36.111819Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:36.111831Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:52.211524Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:52.211549Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:10:56.311420Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:10:56.311432Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:11:28.009973Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:11:28.009999Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:11:31.109103Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:11:31.109113Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:11:33.709667Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:11:33.709681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:11:37.809894Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:11:37.809904Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:06.408943Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:06.409002Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:09.308915Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:09.308924Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:22.107687Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:22.107704Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:23.108789Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:23.108799Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:26.408478Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:26.408489Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:27.708108Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:27.708117Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:30.907164Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:30.907173Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:30.907245Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T11:12:32.108242Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:32.108259Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:32.155951Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T11:12:33.608716Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:33.608730Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:36.108467Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:36.108478Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:51.307800Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:51.307825Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:53.807529Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:53.807539Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:12:56.107230Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:12:56.107243Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:13:14.107590Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:13:14.107623Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:13:15.807020Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:13:15.807029Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:13:19.006871Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:13:19.006884Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:13:51.706370Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:13:51.706623Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:13:53.105041Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:13:53.105053Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:01.105165Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:01.105174Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:18.304208Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:18.304231Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:22.604970Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:22.604981Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:30.804442Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:30.804550Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:30.904294Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:30.904303Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:30.904391Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T11:14:34.703787Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:34.703797Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:14:55.703712Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:14:55.703733Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:00.603693Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:00.603706Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:04.403279Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:04.403294Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:07.102662Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:07.102675Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:09.103452Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:09.103468Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:11.603240Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:11.603254Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:25.702335Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:25.702360Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:27.502423Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:27.502436Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:31.201320Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:31.201338Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:15:33.102232Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:15:33.102241Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:10.200812Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:10.200847Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:12.800746Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:12.800762Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:14.600309Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:14.600319Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:19.800751Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:19.800764Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:21.200122Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:21.200133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:23.099268Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:23.099281Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:25.199980Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:25.199992Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:34.699974Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:34.699990Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:37.199439Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:37.199449Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:16:38.199467Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:16:38.199478Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:17:17.399237Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:17:17.399382Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:17:34.797578Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js")}
+2025-04-23T11:17:34.797590Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:17:34.801888Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T11:17:42.297174Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:17:42.297186Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:17:46.597606Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:17:46.597615Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:18:00.195813Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T11:18:00.195838Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:06.992343Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:06.992362Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:09.892582Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:09.892598Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:15.292449Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:15.292458Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:17.992630Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:17.992650Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:18.992355Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:18.992368Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:20:39.791081Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:20:39.791103Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:33.689973Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:33.690005Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:35.189880Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:35.189890Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:37.389371Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:37.389385Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:42.589430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:42.589441Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:53.988924Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:53.988943Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:21:57.487849Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:21:57.487859Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:22:04.188566Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:22:04.188577Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T11:22:08.288153Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T11:22:08.288166Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T12:24:59.328066Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/producer/kafkaproducer.js"), AnchoredSystemPathBuf("apps/backends/kafka/producer/transactionproducer.js")}
+2025-04-23T12:24:59.328694Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T12:25:02.086070Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js"), AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T12:25:02.086081Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T12:25:02.186098Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/routes/kafkamockroute.js")}
+2025-04-23T12:25:02.186107Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T12:25:02.186173Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-23T12:25:48.982833Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/producer/transactionproducer.js")}
+2025-04-23T12:25:48.982869Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T12:26:05.782006Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/producer/transactionproducer.js")}
+2025-04-23T12:26:05.782048Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T13:07:49.253007Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/kafkaconsumer.js"), AnchoredSystemPathBuf("apps/backends/kafka/consumer/mockpspservice.js")}
+2025-04-23T13:07:49.254091Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T13:07:53.039877Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/index.js")}
+2025-04-23T13:07:53.039885Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T13:17:39.926398Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/transactionstatus.js")}
+2025-04-23T13:17:39.975076Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T13:17:47.210927Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/mockpspservice.js")}
+2025-04-23T13:17:47.210958Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
+2025-04-23T13:17:52.810685Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backends/kafka/consumer/transactionstatus.js")}
+2025-04-23T13:17:52.810693Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("backends"), path: AnchoredSystemPathBuf("apps/backends") }}))
