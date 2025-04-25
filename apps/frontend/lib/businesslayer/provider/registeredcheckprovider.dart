@@ -12,7 +12,7 @@ final registercheckprovider = AutoDisposeFutureProvider<AuthState>((ref) async{
    final usrid = await  storage.read(key: "id");
    if(usrid != null){
      try{
-       final response = await dio.get(registraioncheckendpoint);
+       final response = await dio.get("/auth/:$usrid");
        if(response.statusCode == 200){
          return AuthState.loggedIn ;
        }else{
