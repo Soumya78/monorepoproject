@@ -868,3 +868,30 @@
 2025-04-25T19:21:27.804694Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
 2025-04-25T19:23:36.362818Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".idea/workspace.xml"), AnchoredSystemPathBuf(".idea/workspace.xml~")}
 2025-04-25T19:23:36.362894Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-25T19:30:13.557635Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".idea/workspace.xml"), AnchoredSystemPathBuf(".idea/workspace.xml~")}
+2025-04-25T19:30:13.558680Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-25T19:35:04.449330Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:35:04.450218Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:35:04.450496Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:35:05.244558Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:35:05.244573Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:35:05.279609Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:35:36.263959Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:35:36.265544Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:35:36.266056Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:36:27.165696Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/lib/presentationlayer/views/splashscreen.dart"), AnchoredSystemPathBuf("apps/frontend/lib/presentationlayer/views/splashscreen.dart~")}
+2025-04-25T19:36:27.167908Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:36:27.540125Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".idea/workspace.xml~"), AnchoredSystemPathBuf(".idea/workspace.xml")}
+2025-04-25T19:36:27.540133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-25T19:36:49.146278Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:36:49.147179Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:36:49.151447Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:36:54.038469Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:36:54.038513Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:36:54.038587Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:36:56.639747Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:36:56.639941Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:36:56.676056Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-25T19:37:01.238772Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/frontend/build/b8f8820012751d8e08776a3e94a26b46/gen_localizations.stamp")}
+2025-04-25T19:37:01.238790Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("frontend"), path: AnchoredSystemPathBuf("apps/frontend") }}))
+2025-04-25T19:37:01.274552Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun

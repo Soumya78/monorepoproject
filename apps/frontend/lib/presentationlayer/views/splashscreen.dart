@@ -26,7 +26,7 @@ class Splashscreen extends ConsumerWidget{
     }, error:(e,_){
       return Errorscreen();
     }, loading: (){
-      return CircularProgressIndicator();
+      return Scaffold(body: Center(child: CircularProgressIndicator(),),);
     });
   }
 }
