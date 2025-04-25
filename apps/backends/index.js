@@ -34,12 +34,14 @@ const loginroutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/r
 const sendotproutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/otproute/sendotp.js');
 const sendlogoutroutes = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/logoutroute/logoutroutes.js');
 const kafkamockroute = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/kafkamockroute.js');
+const authwithid = require('/Users/soumya/Documents/my-monorepo/apps/backends/routes/authroutes/authwithid.js');
 
 app.use("/register", registerroutes);    //  Register
 app.use("/login", loginroutes);          //  Login
 app.use('/sendotp', sendotproutes);      //  OTP
 app.use('/logout', sendlogoutroutes);    //  Logout
 app.use('/kafkamock', kafkamockroute);   //  Kafka test/mock
+app.use('/auth/:id', authwithid);        //  Auth with ID
 
 // Start server after all connections and middlewares are set
 app.listen(3000, () => {
