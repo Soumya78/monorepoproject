@@ -1,12 +1,14 @@
 const express= require('express');
 const mongoose = require('mongoose');
-const userModel = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.js');
+const userSchema = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.js');
 const router = express.Router();
 
-router.get("/",async function(req,res){
+router.get("/:userid",async function(req,res){
     try{
        const {userid} =  req.params;
-       const user = await userModel.findOne({userid});
+         console.log("User id",userid);
+       const user = await userSchema.findOne({userid});
+       console.log("User found",user);
        if(!user){
         return res.status(404).json({message:"User not found"})
        }else{

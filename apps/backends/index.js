@@ -41,7 +41,7 @@ app.use("/login", loginroutes);          //  Login
 app.use('/sendotp', sendotproutes);      //  OTP
 app.use('/logout', sendlogoutroutes);    //  Logout
 app.use('/kafkamock', kafkamockroute);   //  Kafka test/mock
-app.use('/auth/:id', authwithid);        //  Auth with ID
+app.use('/auth', authwithid);        //  Auth with ID
 
 // Start server after all connections and middlewares are set
 app.listen(3000, () => {
