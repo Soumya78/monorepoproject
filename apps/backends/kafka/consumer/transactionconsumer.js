@@ -1,47 +1,74 @@
-const kafka = require("/Users/soumya/Documents/my-monorepo/apps/backends/kafka/kafkaclient.js")
-const {processtransaction}= require("/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp.js")
-const{v4:uuidv4}= require("uuid")
-const producer = kafka.producer()// connectiong to kafka
-const consumer = kafka.consumer({ groupId: 'transaction-group' })// connectiong to kafka
-const Transaction = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/model/transactions.js')
-
-const runconsumer = async function () {
-    await consumer.connect();
-    await producer.connect();
-    await consumer.subscribe({ topic: 'transaction', fromBeginning: true });
-   
-    await consumer.run({eachMessage:async function ({message}){ try{
-        const transactiondata = JSON.parse(message.value.toString());
-        transactiondata.transactionId = transactiondata.transactionId || uuidv4(); // generate transactionId if not provided
-         await Transaction.create({
-         transactionId: transactiondata.transactionId || uuidv4(), // generate transactionId if not provided
-           userId: transactiondata.userId,
-           amount: transactiondata.amount,
-           status: 'PENDING',
-           timestamp: transactiondata.timestamp,
-       });
-        const pspresponse = await processtransaction(transactiondata);
-        await producer.send({
-           topic:"transaction-status",
-           messages:[{
-               key:transactiondata.transactionId,
-               value:JSON.stringify({
-                   ...transactiondata,
-                   status:pspresponse.status,
-   
-               })
-           }
-   ]
-   
-        })
-        console.log("📤 Sent transaction status:", pspresponse.status);
-
-    }catch(err){
-        console.log("Error in processing transaction", err);
-        return;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.runConsumer = void 0;
+const kafkajs_1 = require("kafkajs"); // Import Kafka types
+const mockpsp_1 = require("/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp");
+const uuid_1 = require("uuid");
+const transactions_1 = __importDefault(require("../../config/model/transactions"));
+const kafka = new kafkajs_1.Kafka({
+    clientId: 'transaction-client',
+    brokers: ['localhost:9092'], // Add your Kafka broker address here
+});
+const producer = kafka.producer(); // Typed Kafka producer
+const consumer = kafka.consumer({ groupId: 'transaction-group' }); // Typed Kafka consumer
+const runConsumer = () => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        // Connect consumer and producer
+        yield consumer.connect();
+        yield producer.connect();
+        // Subscribe to the 'transaction' topic
+        yield consumer.subscribe({ topic: 'transaction', fromBeginning: true });
+        // Process messages from Kafka
+        yield consumer.run({
+            eachMessage: (_a) => __awaiter(void 0, [_a], void 0, function* ({ message }) {
+                var _b;
+                try {
+                    // Parse message data
+                    const transactionData = JSON.parse(((_b = message.value) === null || _b === void 0 ? void 0 : _b.toString()) || '{}');
+                    // Generate transactionId if not provided
+                    transactionData.transactionId = transactionData.transactionId || (0, uuid_1.v4)();
+                    // Save the transaction to the database
+                    yield transactions_1.default.create({
+                        transactionId: transactionData.transactionId,
+                        userId: transactionData.userId,
+                        amount: transactionData.amount,
+                        status: 'PENDING',
+                        timestamp: transactionData.timestamp,
+                    });
+                    // Process the transaction using PSP service
+                    const pspResponse = yield (0, mockpsp_1.processtransaction)(transactionData);
+                    // Send the transaction status to the 'transaction-status' topic
+                    yield producer.send({
+                        topic: 'transaction-status',
+                        messages: [
+                            {
+                                key: transactionData.transactionId,
+                                value: JSON.stringify(Object.assign(Object.assign({}, transactionData), { status: pspResponse === null || pspResponse === void 0 ? void 0 : pspResponse.status })),
+                            },
+                        ],
+                    });
+                    console.log('📤 Sent transaction status:', pspResponse === null || pspResponse === void 0 ? void 0 : pspResponse.status);
+                }
+                catch (err) {
+                    console.error('Error in processing transaction', err);
+                }
+            }),
+        });
     }
-    
-    }})
-    
-}
-module.exports = {runconsumer}
+    catch (err) {
+        console.error('Error in consumer or producer connection', err);
+    }
+});
+exports.runConsumer = runConsumer;

@@ -875,22 +875,12 @@ export namespace Prisma {
 
   export type AggregateOTPVerification = {
     _count: OTPVerificationCountAggregateOutputType | null
-    _avg: OTPVerificationAvgAggregateOutputType | null
-    _sum: OTPVerificationSumAggregateOutputType | null
     _min: OTPVerificationMinAggregateOutputType | null
     _max: OTPVerificationMaxAggregateOutputType | null
   }
 
-  export type OTPVerificationAvgAggregateOutputType = {
-    id: number | null
-  }
-
-  export type OTPVerificationSumAggregateOutputType = {
-    id: number | null
-  }
-
   export type OTPVerificationMinAggregateOutputType = {
-    id: number | null
+    id: string | null
     phone: string | null
     otp: string | null
     expiresAt: Date | null
@@ -898,7 +888,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationMaxAggregateOutputType = {
-    id: number | null
+    id: string | null
     phone: string | null
     otp: string | null
     expiresAt: Date | null
@@ -914,14 +904,6 @@ export namespace Prisma {
     _all: number
   }
 
-
-  export type OTPVerificationAvgAggregateInputType = {
-    id?: true
-  }
-
-  export type OTPVerificationSumAggregateInputType = {
-    id?: true
-  }
 
   export type OTPVerificationMinAggregateInputType = {
     id?: true
@@ -986,18 +968,6 @@ export namespace Prisma {
     /**
      * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
      * 
-     * Select which fields to average
-    **/
-    _avg?: OTPVerificationAvgAggregateInputType
-    /**
-     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-     * 
-     * Select which fields to sum
-    **/
-    _sum?: OTPVerificationSumAggregateInputType
-    /**
-     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-     * 
      * Select which fields to find the minimum value
     **/
     _min?: OTPVerificationMinAggregateInputType
@@ -1028,21 +998,17 @@ export namespace Prisma {
     take?: number
     skip?: number
     _count?: OTPVerificationCountAggregateInputType | true
-    _avg?: OTPVerificationAvgAggregateInputType
-    _sum?: OTPVerificationSumAggregateInputType
     _min?: OTPVerificationMinAggregateInputType
     _max?: OTPVerificationMaxAggregateInputType
   }
 
   export type OTPVerificationGroupByOutputType = {
-    id: number
+    id: string
     phone: string
     otp: string
     expiresAt: Date
     createdAt: Date
     _count: OTPVerificationCountAggregateOutputType | null
-    _avg: OTPVerificationAvgAggregateOutputType | null
-    _sum: OTPVerificationSumAggregateOutputType | null
     _min: OTPVerificationMinAggregateOutputType | null
     _max: OTPVerificationMaxAggregateOutputType | null
   }
@@ -1099,7 +1065,7 @@ export namespace Prisma {
     name: "OTPVerification"
     objects: {}
     scalars: $Extensions.GetPayloadResult<{
-      id: number
+      id: string
       phone: string
       otp: string
       expiresAt: Date
@@ -1527,7 +1493,7 @@ export namespace Prisma {
    * Fields of the OTPVerification model
    */
   interface OTPVerificationFieldRefs {
-    readonly id: FieldRef<"OTPVerification", 'Int'>
+    readonly id: FieldRef<"OTPVerification", 'String'>
     readonly phone: FieldRef<"OTPVerification", 'String'>
     readonly otp: FieldRef<"OTPVerification", 'String'>
     readonly expiresAt: FieldRef<"OTPVerification", 'DateTime'>
@@ -1945,20 +1911,6 @@ export namespace Prisma {
 
 
   /**
-   * Reference to a field of type 'Int'
-   */
-  export type IntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int'>
-    
-
-
-  /**
-   * Reference to a field of type 'Int[]'
-   */
-  export type ListIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int[]'>
-    
-
-
-  /**
    * Reference to a field of type 'String'
    */
   export type StringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String'>
@@ -1987,16 +1939,16 @@ export namespace Prisma {
 
 
   /**
-   * Reference to a field of type 'Float'
+   * Reference to a field of type 'Int'
    */
-  export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float'>
+  export type IntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int'>
     
 
 
   /**
-   * Reference to a field of type 'Float[]'
+   * Reference to a field of type 'Int[]'
    */
-  export type ListFloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float[]'>
+  export type ListIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int[]'>
     
   /**
    * Deep Input Types
@@ -2007,7 +1959,7 @@ export namespace Prisma {
     AND?: OTPVerificationWhereInput | OTPVerificationWhereInput[]
     OR?: OTPVerificationWhereInput[]
     NOT?: OTPVerificationWhereInput | OTPVerificationWhereInput[]
-    id?: IntFilter<"OTPVerification"> | number
+    id?: StringFilter<"OTPVerification"> | string
     phone?: StringFilter<"OTPVerification"> | string
     otp?: StringFilter<"OTPVerification"> | string
     expiresAt?: DateTimeFilter<"OTPVerification"> | Date | string
@@ -2023,7 +1975,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationWhereUniqueInput = Prisma.AtLeast<{
-    id?: number
+    id?: string
     phone?: string
     AND?: OTPVerificationWhereInput | OTPVerificationWhereInput[]
     OR?: OTPVerificationWhereInput[]
@@ -2040,17 +1992,15 @@ export namespace Prisma {
     expiresAt?: SortOrder
     createdAt?: SortOrder
     _count?: OTPVerificationCountOrderByAggregateInput
-    _avg?: OTPVerificationAvgOrderByAggregateInput
     _max?: OTPVerificationMaxOrderByAggregateInput
     _min?: OTPVerificationMinOrderByAggregateInput
-    _sum?: OTPVerificationSumOrderByAggregateInput
   }
 
   export type OTPVerificationScalarWhereWithAggregatesInput = {
     AND?: OTPVerificationScalarWhereWithAggregatesInput | OTPVerificationScalarWhereWithAggregatesInput[]
     OR?: OTPVerificationScalarWhereWithAggregatesInput[]
     NOT?: OTPVerificationScalarWhereWithAggregatesInput | OTPVerificationScalarWhereWithAggregatesInput[]
-    id?: IntWithAggregatesFilter<"OTPVerification"> | number
+    id?: StringWithAggregatesFilter<"OTPVerification"> | string
     phone?: StringWithAggregatesFilter<"OTPVerification"> | string
     otp?: StringWithAggregatesFilter<"OTPVerification"> | string
     expiresAt?: DateTimeWithAggregatesFilter<"OTPVerification"> | Date | string
@@ -2058,6 +2008,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationCreateInput = {
+    id?: string
     phone: string
     otp: string
     expiresAt: Date | string
@@ -2065,7 +2016,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationUncheckedCreateInput = {
-    id?: number
+    id?: string
     phone: string
     otp: string
     expiresAt: Date | string
@@ -2073,6 +2024,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationUpdateInput = {
+    id?: StringFieldUpdateOperationsInput | string
     phone?: StringFieldUpdateOperationsInput | string
     otp?: StringFieldUpdateOperationsInput | string
     expiresAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -2080,7 +2032,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationUncheckedUpdateInput = {
-    id?: IntFieldUpdateOperationsInput | number
+    id?: StringFieldUpdateOperationsInput | string
     phone?: StringFieldUpdateOperationsInput | string
     otp?: StringFieldUpdateOperationsInput | string
     expiresAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -2088,7 +2040,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationCreateManyInput = {
-    id?: number
+    id?: string
     phone: string
     otp: string
     expiresAt: Date | string
@@ -2096,6 +2048,7 @@ export namespace Prisma {
   }
 
   export type OTPVerificationUpdateManyMutationInput = {
+    id?: StringFieldUpdateOperationsInput | string
     phone?: StringFieldUpdateOperationsInput | string
     otp?: StringFieldUpdateOperationsInput | string
     expiresAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -2103,22 +2056,11 @@ export namespace Prisma {
   }
 
   export type OTPVerificationUncheckedUpdateManyInput = {
-    id?: IntFieldUpdateOperationsInput | number
+    id?: StringFieldUpdateOperationsInput | string
     phone?: StringFieldUpdateOperationsInput | string
     otp?: StringFieldUpdateOperationsInput | string
     expiresAt?: DateTimeFieldUpdateOperationsInput | Date | string
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
-  }
-
-  export type IntFilter<$PrismaModel = never> = {
-    equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[] | ListIntFieldRefInput<$PrismaModel>
-    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
-    lt?: number | IntFieldRefInput<$PrismaModel>
-    lte?: number | IntFieldRefInput<$PrismaModel>
-    gt?: number | IntFieldRefInput<$PrismaModel>
-    gte?: number | IntFieldRefInput<$PrismaModel>
-    not?: NestedIntFilter<$PrismaModel> | number
   }
 
   export type StringFilter<$PrismaModel = never> = {
@@ -2155,10 +2097,6 @@ export namespace Prisma {
     createdAt?: SortOrder
   }
 
-  export type OTPVerificationAvgOrderByAggregateInput = {
-    id?: SortOrder
-  }
-
   export type OTPVerificationMaxOrderByAggregateInput = {
     id?: SortOrder
     phone?: SortOrder
@@ -2173,26 +2111,6 @@ export namespace Prisma {
     otp?: SortOrder
     expiresAt?: SortOrder
     createdAt?: SortOrder
-  }
-
-  export type OTPVerificationSumOrderByAggregateInput = {
-    id?: SortOrder
-  }
-
-  export type IntWithAggregatesFilter<$PrismaModel = never> = {
-    equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[] | ListIntFieldRefInput<$PrismaModel>
-    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
-    lt?: number | IntFieldRefInput<$PrismaModel>
-    lte?: number | IntFieldRefInput<$PrismaModel>
-    gt?: number | IntFieldRefInput<$PrismaModel>
-    gte?: number | IntFieldRefInput<$PrismaModel>
-    not?: NestedIntWithAggregatesFilter<$PrismaModel> | number
-    _count?: NestedIntFilter<$PrismaModel>
-    _avg?: NestedFloatFilter<$PrismaModel>
-    _sum?: NestedIntFilter<$PrismaModel>
-    _min?: NestedIntFilter<$PrismaModel>
-    _max?: NestedIntFilter<$PrismaModel>
   }
 
   export type StringWithAggregatesFilter<$PrismaModel = never> = {
@@ -2235,25 +2153,6 @@ export namespace Prisma {
     set?: Date | string
   }
 
-  export type IntFieldUpdateOperationsInput = {
-    set?: number
-    increment?: number
-    decrement?: number
-    multiply?: number
-    divide?: number
-  }
-
-  export type NestedIntFilter<$PrismaModel = never> = {
-    equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[] | ListIntFieldRefInput<$PrismaModel>
-    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
-    lt?: number | IntFieldRefInput<$PrismaModel>
-    lte?: number | IntFieldRefInput<$PrismaModel>
-    gt?: number | IntFieldRefInput<$PrismaModel>
-    gte?: number | IntFieldRefInput<$PrismaModel>
-    not?: NestedIntFilter<$PrismaModel> | number
-  }
-
   export type NestedStringFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
     in?: string[] | ListStringFieldRefInput<$PrismaModel>
@@ -2279,33 +2178,6 @@ export namespace Prisma {
     not?: NestedDateTimeFilter<$PrismaModel> | Date | string
   }
 
-  export type NestedIntWithAggregatesFilter<$PrismaModel = never> = {
-    equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[] | ListIntFieldRefInput<$PrismaModel>
-    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
-    lt?: number | IntFieldRefInput<$PrismaModel>
-    lte?: number | IntFieldRefInput<$PrismaModel>
-    gt?: number | IntFieldRefInput<$PrismaModel>
-    gte?: number | IntFieldRefInput<$PrismaModel>
-    not?: NestedIntWithAggregatesFilter<$PrismaModel> | number
-    _count?: NestedIntFilter<$PrismaModel>
-    _avg?: NestedFloatFilter<$PrismaModel>
-    _sum?: NestedIntFilter<$PrismaModel>
-    _min?: NestedIntFilter<$PrismaModel>
-    _max?: NestedIntFilter<$PrismaModel>
-  }
-
-  export type NestedFloatFilter<$PrismaModel = never> = {
-    equals?: number | FloatFieldRefInput<$PrismaModel>
-    in?: number[] | ListFloatFieldRefInput<$PrismaModel>
-    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel>
-    lt?: number | FloatFieldRefInput<$PrismaModel>
-    lte?: number | FloatFieldRefInput<$PrismaModel>
-    gt?: number | FloatFieldRefInput<$PrismaModel>
-    gte?: number | FloatFieldRefInput<$PrismaModel>
-    not?: NestedFloatFilter<$PrismaModel> | number
-  }
-
   export type NestedStringWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
     in?: string[] | ListStringFieldRefInput<$PrismaModel>
@@ -2321,6 +2193,17 @@ export namespace Prisma {
     _count?: NestedIntFilter<$PrismaModel>
     _min?: NestedStringFilter<$PrismaModel>
     _max?: NestedStringFilter<$PrismaModel>
+  }
+
+  export type NestedIntFilter<$PrismaModel = never> = {
+    equals?: number | IntFieldRefInput<$PrismaModel>
+    in?: number[] | ListIntFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
+    lt?: number | IntFieldRefInput<$PrismaModel>
+    lte?: number | IntFieldRefInput<$PrismaModel>
+    gt?: number | IntFieldRefInput<$PrismaModel>
+    gte?: number | IntFieldRefInput<$PrismaModel>
+    not?: NestedIntFilter<$PrismaModel> | number
   }
 
   export type NestedDateTimeWithAggregatesFilter<$PrismaModel = never> = {

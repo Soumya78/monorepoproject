@@ -1,3 +1,4 @@
+"use strict";
 require('dotenv').config();
 const bcrpt = require('bcryptjs');
 const express = require('express');
@@ -9,15 +10,10 @@ const genratetoken = require('../../config/middleware/registermiddleware/generat
 const hashspassword = require('../../config/middleware/registermiddleware/hashpassword.js');
 const saveusertodb = require('../../config/middleware/registermiddleware/saveusertodb.js');
 const validateregisterfield = require('../../config/middleware/registermiddleware/validateregisterfields.js');
-const loginusermiddleware = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware.js')
-const sendusertoqueue = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/sendusertoqueue/sendusertoqueue.js');
-router.post('/',exisitinguser,genratetoken,hashspassword,saveusertodb,sendusertoqueue,
-    validateregisterfield);  
-    console.log('checking');
-     ///register route
-
-    //<-------------------------------->//
-
-
-
+const loginusermiddleware = require('/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware.js');
+const sendusertoqueue = require('../../config/middleware/sendusertoqueue/sendusertoqueue.js');
+router.post('/', exisitinguser, genratetoken, hashspassword, saveusertodb, sendusertoqueue, validateregisterfield);
+console.log('checking');
+///register route
+//<-------------------------------->//
 module.exports = router;

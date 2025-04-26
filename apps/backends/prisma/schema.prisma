@@ -14,7 +14,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 model OTPVerification {
-  id         Int      @id @default(uuid())
+  id         String      @id @default(uuid())
   phone      String   @unique
   otp        String
   expiresAt  DateTime
