@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users'; // Adjust according to your model path
+
+import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.ts'; // Adjust according to your model path
 
 // Type for the request body (emailid in this case)
 interface UserRequestBody {

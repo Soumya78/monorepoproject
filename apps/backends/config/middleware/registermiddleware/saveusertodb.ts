@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { v4 as uuidv4 } from 'uuid';
-import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users';  // Update with actual path
+import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.ts';  // Update with actual path
 
 // Type for the user creation request body
 interface UserRequestBody {

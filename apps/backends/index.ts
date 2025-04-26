@@ -1,16 +1,16 @@
 import express, { Request, Response, NextFunction } from 'express';
 import cookieParser from 'cookie-parser';
-import { PrismaClient } from './generated/prisma';// Ensure this import path matches your setup
-import{ connectProducer, sendTransactionEvent } from './kafka/producer/transactionproducer';
-import { runConsumer } from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/consumer/transactionconsumer';
-import { connectStatusConsumer } from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/consumer/transactionstatusconsumer';
-import { connectToRabbit } from './services/notifcationservice/notificationservice';
-import connectDB from './config/db';
+import { PrismaClient } from '/Users/soumya/Documents/my-monorepo/apps/backends/generated/prisma/client.js';// Ensure this import path matches your setup
+import{ connectProducer, sendTransactionEvent } from './kafka/producer/transactionproducer.ts';
+import { runConsumer } from './kafka/consumer/transactionconsumer.ts';
+import { connectStatusConsumer } from './kafka/consumer/transactionstatusconsumer.ts';
+import { connectToRabbit } from './services/notifcationservice/notificationservice.ts';
+import connectDB from './config/db.ts';
 
 // Initialize the app and Prisma Client
 const app = express();
 const prisma = new PrismaClient();
-
+-
 // Middleware
 app.use(express.json()); // for parsing application/json
 app.use(cookieParser());
@@ -34,12 +34,12 @@ console.log("Safe to use"); // Kafka Transaction Status Consumer
 connectToRabbit(); // RabbitMQ for Notifications
 
 // Route registrations AFTER middleware
-import registerroutes from '/Users/soumya/Documents/my-monorepo/apps/backends/routes/authroutes/registerroute';
-import loginroutes from './routes/loginroute/loginroutes';
-import sendotproutes from './routes/otproute/sendotp';
-import sendlogoutroutes from './routes/logoutroute/logoutroutes';
-import kafkamockroute from '/Users/soumya/Documents/my-monorepo/apps/backends/routes/kafkamockroute';
-import authwithid from '/Users/soumya/Documents/my-monorepo/apps/backends/routes/authroutes/authwithid';
+import registerroutes from './routes/authroutes/registerroute.ts';
+import loginroutes from './routes/loginroute/loginroutes.ts';
+import sendotproutes from './routes/otproute/sendotp.ts';
+import sendlogoutroutes from './routes/logoutroute/logoutroutes.ts';
+import kafkamockroute from './routes/kafkamockroute.ts';
+import authwithid from './routes/authroutes/authwithid.ts';
 
 app.use("/register", registerroutes); // Register
 app.use("/login", loginroutes); // Login

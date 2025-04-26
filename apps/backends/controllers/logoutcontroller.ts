@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import redis from '../client/redisclient'; // adjust path if needed
+import redis from '../client/redisclient.ts'; // adjust path if needed
 
 interface DecodedToken {
   jiti: string;

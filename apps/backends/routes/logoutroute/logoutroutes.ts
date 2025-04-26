@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import logoutcontroller from '/Users/soumya/Documents/my-monorepo/apps/backends/controllers/logoutcontroller';
+import logoutcontroller from '/Users/soumya/Documents/my-monorepo/apps/backends/controllers/logoutcontroller.ts';
 
 const router: Router = Router();
 

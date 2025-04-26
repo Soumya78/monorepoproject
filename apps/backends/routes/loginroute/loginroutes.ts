@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction, Router } from 'express';
-import loginusermiddleware from '/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware';
+import loginusermiddleware from '/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/loginmiddleware/loginusermiddleware.ts';
 
 const router = Router();
 

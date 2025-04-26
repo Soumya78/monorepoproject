@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidv4 } from 'uuid';
 import { Request, Response, NextFunction } from 'express'; // Import types for req, res, next
-import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users'; // Ensure correct import path
+import model from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.ts'; // Ensure correct import path
 import cookieParser from 'cookie-parser';
 
 const loginusermiddleware = async (req: Request, res: Response, next: NextFunction): Promise<void> => {

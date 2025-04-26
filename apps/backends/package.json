@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ",
-    "build": "echo 'nothing to build for backend'"
+    "start": "nodemon --watch '**/*.ts' --exec ts-node index.ts",
+    "build": "echo 'nothing to build for backend'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +39,8 @@
     "@types/ioredis": "^4.28.10",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/mongoose": "^5.11.96",
-    "@types/nodemailer": "^6.4.17"
+    "@types/nodemailer": "^6.4.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }

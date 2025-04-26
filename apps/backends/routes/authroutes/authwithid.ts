@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import mongoose from 'mongoose';
-import User from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users'; // Assuming default export for User model
+import User from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/users.ts'; // Assuming default export for User model
 
 const router = express.Router();
 

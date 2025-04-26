@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
     "jsx": "preserve",
-    "moduleResolution": "bundler", // helps with modern monorepo setups
+    "moduleResolution": "Node", // helps with modern monorepo setups
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions":true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "target": "esnext",
+    "module": "CommonJS",
+    "target": "es2020",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+
   }
 }

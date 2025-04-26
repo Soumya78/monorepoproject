@@ -1,5 +1,5 @@
-import { PrismaClient } from '/Users/soumya/Documents/my-monorepo/apps/backends/generated/prisma';
-import {otpservice}  from '/Users/soumya/Documents/my-monorepo/apps/backends/services/otpservice';
+import { PrismaClient } from '/Users/soumya/Documents/my-monorepo/apps/backends/generated/prisma/client.js';
+import {otpservice}  from '/Users/soumya/Documents/my-monorepo/apps/backends/services/otpservice.ts';
 import { Request, Response, NextFunction } from 'express';
 
 // Type for the OTP request body

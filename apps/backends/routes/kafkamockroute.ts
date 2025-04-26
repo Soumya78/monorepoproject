@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 const router = express.Router();
-import  {sendTransactionEvent}  from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/producer/transactionproducer';
+import  {sendTransactionEvent}  from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/producer/transactionproducer.ts';
 
 // Define user type
 interface AuthenticatedUser {

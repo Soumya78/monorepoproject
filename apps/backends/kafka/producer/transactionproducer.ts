@@ -1,5 +1,7 @@
-import { Kafka, Producer, Message } from 'kafkajs'; // Import Kafka types
-import {Transaction}  from '/Users/soumya/Documents/my-monorepo/apps/backends/config/model/transactions'; // Assuming you have a TransactionData interface for type safety
+import kafkajs from 'kafkajs'; // Import KafkaJS
+const { Kafka} = kafkajs ; // Import Kafka types
+import type { Producer, Message } from 'kafkajs';
+
 
 // Kafka client setup
 const kafka = new Kafka({

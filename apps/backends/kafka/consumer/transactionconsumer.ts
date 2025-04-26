@@ -1,7 +1,9 @@
-import { Kafka, Producer, Consumer, KafkaMessage } from 'kafkajs';  // Import Kafka types
-import  {processtransaction}  from '/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp';
+import kafkajs  from 'kafkajs'; 
+const{Kafka} = kafkajs;
+import type { Producer, Consumer, KafkaMessage } from 'kafkajs';
+import  {processtransaction}  from '/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp.ts';
 import { v4 as uuidv4 } from 'uuid';
-import Transaction from '../../config/model/transactions';
+import Transaction from '../../config/model/transactions.ts';
 
 // Type for the transaction data
 interface TransactionData {

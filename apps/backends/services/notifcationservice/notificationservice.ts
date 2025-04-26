@@ -1,4 +1,5 @@
-import amqp, { Channel, Connection } from 'amqplib/callback_api';
+import amqp from 'amqplib/callback_api.js';
+import type { Connection, Channel } from 'amqplib/callback_api.js';
 
 let channel: Channel | null = null;
 

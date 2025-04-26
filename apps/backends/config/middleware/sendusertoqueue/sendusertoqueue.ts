@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
-import saveusertodb from '../registermiddleware/saveusertodb';
-import { getChannel } from '/Users/soumya/Documents/my-monorepo/apps/backends/services/notifcationservice/notificationservice';
-import { Channel } from 'amqplib/callback_api'; // for proper typing
+import saveusertodb from '/Users/soumya/Documents/my-monorepo/apps/backends/config/middleware/registermiddleware/saveusertodb.ts';
+import { getChannel } from '/Users/soumya/Documents/my-monorepo/apps/backends/services/notifcationservice/notificationservice.ts';
+import { Channel } from 'amqplib/callback_api.js'; // for proper typing
 
 interface ExtendedRequest extends Request {
   saveusertodb?: {

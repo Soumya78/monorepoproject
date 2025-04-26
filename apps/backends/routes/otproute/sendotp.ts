@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import {handleOtpGeneration}  from '../../config/middleware/otpmiddleware/otpmiddleware';
+import {handleOtpGeneration}  from '../../config/middleware/otpmiddleware/otpmiddleware.ts';
 
 const router: Router = Router();
 interface OTPRequestBody {
