@@ -1,10 +1,11 @@
 import express, { Request, Response } from 'express';
 const router = express.Router();
 import  {sendTransactionEvent}  from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/producer/transactionproducer.ts';
+import { v4 as uuidv4 } from 'uuid';
 
 // Define user type
 interface AuthenticatedUser {
-  userId: number;
+  userId: string;
 }
 
 // Extend Express Request to include `user`
@@ -14,7 +15,7 @@ interface AuthenticatedRequest extends Request {
 
 // Define a type for the transaction data
 interface TransactionData {
-  userId: number;
+  userId: string;
   amount: number;
   transactionType: string;
   timestamp: number;
@@ -22,12 +23,13 @@ interface TransactionData {
 }
 
 router.post('/', async function (req: AuthenticatedRequest, res: Response): Promise<void> {
-  if (!req.user || !req.user.userId) {
-    res.status(401).send('Unauthorized: User not authenticated');
-    return;
-  }
+const {amount} = req.body;
+if(!amount || amount <= 0) {
+  res.status(400).send('Invalid amount');
+  return;
+}
 
-  const userId: number = req.user.userId;
+  const userId = uuidv4();
 
   const transactionData: TransactionData = {
     userId,

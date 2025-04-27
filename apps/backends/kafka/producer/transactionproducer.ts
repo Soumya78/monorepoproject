@@ -3,13 +3,14 @@ const { Kafka} = kafkajs ; // Import Kafka types
 import type { Producer, Message } from 'kafkajs';
 
 
+
 // Kafka client setup
 const kafka = new Kafka({
   clientId: 'transaction-producer-client',
   brokers: ['localhost:9092'],  // Update with your Kafka broker address
 });
 export interface TransactionData {
-    userId: number;
+    userId: string;
     amount: number;
     transactionType: string;
     timestamp: number;
