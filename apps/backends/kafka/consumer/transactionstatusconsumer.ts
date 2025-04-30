@@ -2,7 +2,7 @@ import kafkajs  from 'kafkajs';
 const{Kafka} = kafkajs;
 import type {  Consumer, KafkaMessage } from 'kafkajs';
 import mongoose from 'mongoose';
-import {processtransaction }  from '/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp.ts';
+import {processtransaction }  from '../../services/mockpsp.ts';
 import Transaction from '../../config/model/transactions.ts';
 
 // Kafka consumer types

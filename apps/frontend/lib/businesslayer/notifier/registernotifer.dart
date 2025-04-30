@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:frontend/businesslayer/notifier/authnotifer.dart';
+
 import 'package:frontend/businesslayer/provider/authprovider.dart';
 import 'package:frontend/datalayer/model/registermodel.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';

@@ -7,7 +7,7 @@ part 'registermodel.g.dart';
 abstract class RegisterModel with _$RegisterModel {
   const factory RegisterModel({
     required String emailid,
-    required String username,
+
     required String password,
   }) = _RegisterModel;
 

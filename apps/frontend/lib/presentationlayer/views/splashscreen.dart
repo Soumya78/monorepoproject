@@ -9,7 +9,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class Splashscreen extends ConsumerWidget{
   Widget build(BuildContext context,WidgetRef ref){
+
     final registrationcheck = ref.watch(registercheckprovider);
+    print(registrationcheck.value);
     return registrationcheck.when(data: (data){
       switch(data){
 

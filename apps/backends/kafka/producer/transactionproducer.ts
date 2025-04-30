@@ -1,6 +1,8 @@
 import kafkajs from 'kafkajs'; // Import KafkaJS
 const { Kafka} = kafkajs ; // Import Kafka types
+import mongoose  from 'mongoose';
 import type { Producer, Message } from 'kafkajs';
+
 
 
 
@@ -9,13 +11,17 @@ const kafka = new Kafka({
   clientId: 'transaction-producer-client',
   brokers: ['localhost:9092'],  // Update with your Kafka broker address
 });
+
 export interface TransactionData {
-    userId: string;
-    amount: number;
-    transactionType: string;
-    timestamp: number;
-    status: string;
-  }
+  transactionId: string;
+  fromupid: string;
+  toupiid: string;
+  currency: string;
+  userId: string; 
+  amount: number;
+  status: string;
+  timestamp: Date;
+}
 
 const producer: Producer = kafka.producer(); // Typed Kafka producer
 
@@ -43,6 +49,7 @@ const sendTransactionEvent = async (transactionData: TransactionData): Promise<v
     });
 
     console.log(`Transaction sent to user id ${transactionData.userId}`);
+    console.log('Transaction data:', transactionData);
   } catch (error) {
     console.error('Error sending transaction event:', error);
   }

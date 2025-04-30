@@ -10,9 +10,11 @@ final registercheckprovider = AutoDisposeFutureProvider<AuthState>((ref) async{
    final storage = FlutterSecureStorage();
    final dio = ref.read(dioprovider);
    final usrid = await  storage.read(key: "id");
+
    if(usrid != null){
      try{
        final response = await dio.get("/auth/$usrid");
+       print("api fetched");
        if(response.statusCode == 200){
          return AuthState.loggedIn ;
        }else{

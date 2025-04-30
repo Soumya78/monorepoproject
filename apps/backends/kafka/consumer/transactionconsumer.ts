@@ -1,14 +1,18 @@
 import kafkajs  from 'kafkajs'; 
 const{Kafka} = kafkajs;
 import type { Producer, Consumer, KafkaMessage } from 'kafkajs';
-import  {processtransaction}  from '/Users/soumya/Documents/my-monorepo/apps/backends/service/mockpsp.ts';
+import  {processtransaction}  from '../../services/mockpsp.ts';
 import { v4 as uuidv4 } from 'uuid';
 import Transaction from '../../config/model/transactions.ts';
+
 
 // Type for the transaction data
 interface TransactionData {
   transactionId: string;
-  userId: string ;
+  fromupid: string;
+  toupiid: string;
+  currency: string;
+  userId: string; 
   amount: number;
   status: string;
   timestamp: Date;
@@ -42,17 +46,23 @@ const runConsumer = async (): Promise<void> => {
         try {
           // Parse message data
           const transactionData: TransactionData = JSON.parse(message.value?.toString() || '{}');
+          
+         
 
           // Generate transactionId if not provided
           transactionData.transactionId = transactionData.transactionId || uuidv4();
+        // const user = await User.findOne({emailid:reques });
 
           // Save the transaction to the database
           await Transaction.create({
             transactionId: transactionData.transactionId,
-            userId: transactionData.userId,
+            userId:transactionData.userId ,
             amount: transactionData.amount,
             status: 'PENDING',
             timestamp: transactionData.timestamp,
+            fromupid: transactionData.fromupid,
+            toupiid: transactionData.toupiid,
+            currency: transactionData.currency,
           });
 
           // Process the transaction using PSP service

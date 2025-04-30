@@ -16,7 +16,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$RegisterModel {
 
- String get emailid; String get username; String get password;
+ String get emailid; String get password;
 /// Create a copy of RegisterModel
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -29,16 +29,16 @@ $RegisterModelCopyWith<RegisterModel> get copyWith => _$RegisterModelCopyWithImp
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is RegisterModel&&(identical(other.emailid, emailid) || other.emailid == emailid)&&(identical(other.username, username) || other.username == username)&&(identical(other.password, password) || other.password == password));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is RegisterModel&&(identical(other.emailid, emailid) || other.emailid == emailid)&&(identical(other.password, password) || other.password == password));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,emailid,username,password);
+int get hashCode => Object.hash(runtimeType,emailid,password);
 
 @override
 String toString() {
-  return 'RegisterModel(emailid: $emailid, username: $username, password: $password)';
+  return 'RegisterModel(emailid: $emailid,  password: $password)';
 }
 
 
@@ -69,7 +69,7 @@ class _$RegisterModelCopyWithImpl<$Res>
 @pragma('vm:prefer-inline') @override $Res call({Object? emailid = null,Object? username = null,Object? password = null,}) {
   return _then(_self.copyWith(
 emailid: null == emailid ? _self.emailid : emailid // ignore: cast_nullable_to_non_nullable
-as String,username: null == username ? _self.username : username // ignore: cast_nullable_to_non_nullable
+// ignore: cast_nullable_to_non_nullable
 as String,password: null == password ? _self.password : password // ignore: cast_nullable_to_non_nullable
 as String,
   ));
@@ -82,11 +82,11 @@ as String,
 @JsonSerializable()
 
 class _RegisterModel implements RegisterModel {
-  const _RegisterModel({required this.emailid, required this.username, required this.password});
+  const _RegisterModel({required this.emailid, required this.password});
   factory _RegisterModel.fromJson(Map<String, dynamic> json) => _$RegisterModelFromJson(json);
 
 @override final  String emailid;
-@override final  String username;
+
 @override final  String password;
 
 /// Create a copy of RegisterModel
@@ -102,16 +102,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RegisterModel&&(identical(other.emailid, emailid) || other.emailid == emailid)&&(identical(other.username, username) || other.username == username)&&(identical(other.password, password) || other.password == password));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RegisterModel&&(identical(other.emailid, emailid) || other.emailid == emailid)&&(identical(other.password, password) || other.password == password));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,emailid,username,password);
+int get hashCode => Object.hash(runtimeType,emailid,password);
 
 @override
 String toString() {
-  return 'RegisterModel(emailid: $emailid, username: $username, password: $password)';
+  return 'RegisterModel(emailid: $emailid, password: $password)';
 }
 
 
@@ -142,7 +142,7 @@ class __$RegisterModelCopyWithImpl<$Res>
 @override @pragma('vm:prefer-inline') $Res call({Object? emailid = null,Object? username = null,Object? password = null,}) {
   return _then(_RegisterModel(
 emailid: null == emailid ? _self.emailid : emailid // ignore: cast_nullable_to_non_nullable
-as String,username: null == username ? _self.username : username // ignore: cast_nullable_to_non_nullable
+ // ignore: cast_nullable_to_non_nullable
 as String,password: null == password ? _self.password : password // ignore: cast_nullable_to_non_nullable
 as String,
   ));
