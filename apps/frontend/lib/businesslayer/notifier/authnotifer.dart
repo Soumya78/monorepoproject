@@ -6,9 +6,10 @@ class Authnotifer extends StateNotifier<String?> {
   Authnotifer():super(null);
   final _storage = FlutterSecureStorage();
 
-  Future<void> loadid()async{
+  Future<String?> loadid()async{
     final token = await _storage.read( key: 'id');
     state = token ;
+    return state ;
 
   }
   Future<void> setid(String token)async{
@@ -16,10 +17,24 @@ class Authnotifer extends StateNotifier<String?> {
     state = token ;
 
   }
+
   Future<void> clearid()async{
      await _storage.delete(key: 'id');
     state = null ;
 
+  }
+
+  //<__________________________>
+  Future<String?> setupiid(String upiid)async{
+    await _storage.write( key: 'upi-id', value: upiid,);
+    state = upiid ;
+    return state ;
+
+  }
+  Future<String?> loadupiid() async{
+    final upiid = await _storage.read( key: 'upi-id');
+    state = upiid ;
+    return state ;
   }
 
 

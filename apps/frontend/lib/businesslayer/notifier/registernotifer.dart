@@ -31,8 +31,11 @@ Future<bool> registerapi(RegisterModel registermodel) async {
         print(response.body);
         final responsetoken = jsonDecode(response.body);
         final userid = responsetoken["userid"];
+        final upiid = responsetoken["upiid"];
+        print(upiid);
       if(userid != null){
       await ref.read(authprovider.notifier).setid(userid);
+      await ref.read(authprovider.notifier).setupiid(upiid);
       }
       return true ;
       } else if (response.statusCode == 400) {

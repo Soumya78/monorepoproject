@@ -6,6 +6,6 @@ class Dashboardscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextEditingController _searchcontroller = TextEditingController();
-    return Scaffold( body: Column(children: [GpayTopSection()],));
+    return Scaffold( body: Column(children: [Gpaytopsection()],));
   }
 }

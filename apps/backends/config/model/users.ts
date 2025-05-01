@@ -6,7 +6,7 @@ interface IUser extends Document {
   userid:String
   emailid: string;
   password: string;
-  upiid:{type:String,unique:true,required:true};
+  upiid:string;
   
   secret: string;
 }

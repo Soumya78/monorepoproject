@@ -5,6 +5,7 @@ import 'package:frontend/presentationlayer/views/dashboardscreen.dart';
 import 'package:frontend/presentationlayer/views/loginscreen.dart';
 import 'package:frontend/presentationlayer/views/otpscreen.dart';
 import 'package:frontend/presentationlayer/views/splashscreen.dart';
+import 'package:frontend/presentationlayer/views/transactionlistscreen.dart';
 
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -34,6 +35,7 @@ final routerprovider = Provider<GoRouter>((ref) {
           return Splashscreen();
         },
       ),
+
       /*
       // GoRoute(
       //   path: loginroute,
@@ -42,8 +44,6 @@ final routerprovider = Provider<GoRouter>((ref) {
       //   },
       // ),
       */
-
-
       GoRoute(
         path: otproute,
         builder: (BuildContext context, GoRouterState state) {
@@ -54,6 +54,12 @@ final routerprovider = Provider<GoRouter>((ref) {
         path: dashboardroute,
         builder: (BuildContext context, GoRouterState state) {
           return Dashboardscreen();
+        },
+      ),
+      GoRoute(
+        path: transactionlistscreen,
+        builder: (BuildContext context, GoRouterState state) {
+          return Transactionlistscreen();
         },
       ),
     ],

@@ -62,6 +62,7 @@ class Registerscreen extends ConsumerWidget {
                       await ref // accessing the values incase of success or dailure
                           .watch(registerprovider.notifier)
                            .registerapi(registermodel);
+                  print(isuscess.toString() +"success");
 
                   if (isuscess) {
                     if (context.mounted) {

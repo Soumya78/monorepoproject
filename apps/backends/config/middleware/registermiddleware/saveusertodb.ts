@@ -16,6 +16,7 @@ interface UserRequestBody {
 const createUser = async (req: Request<{}, {}, UserRequestBody>, res: Response, next: NextFunction): Promise<void> => {
   try {
     const {  emailid, password, secret } = req.body;
+   
 
 const upiid = await genereateupiid(emailid)
 
@@ -38,7 +39,7 @@ const upiid = await genereateupiid(emailid)
     }
 
     // Respond with the created user information
-    res.status(201).json({ message: 'User created successfully' ,userid:saveduser.userid });
+    res.status(201).json({ message: 'User created successfully' ,userid:saveduser.userid,upiid:saveduser.upiid });
   } catch (err) {
     // Handle errors during user creation
     console.error('Error saving user:', err);

@@ -3,16 +3,21 @@ import cookieParser from 'cookie-parser';
 import { PrismaClient } from '/Users/soumya/Documents/my-monorepo/apps/backends/generated/prisma/client.js';// Ensure this import path matches your setup
 import{ connectProducer, sendTransactionEvent } from './kafka/producer/transactionproducer.ts';
 import { runConsumer } from './kafka/consumer/transactionconsumer.ts';
+import http from 'http';
 import { connectStatusConsumer } from './kafka/consumer/transactionstatusconsumer.ts';
 import { connectToRabbit } from './services/notifcationservice/notificationservice.ts';
 import connectDB from './config/db.ts';
+import {setupsocketio} from './controllers/realtime/realtimeupi.ts';
+
 
 // Initialize the app and Prisma Client
 const app = express();
+const server = http.createServer(app);
 const prisma = new PrismaClient();
 -
 // Middleware
 app.use(express.json()); // for parsing application/json
+setupsocketio(server); // Socket.io setup
 app.use(cookieParser());
 
 // Connect to the DB first (before using any services)
@@ -40,6 +45,7 @@ import sendotproutes from './routes/otproute/sendotp.ts';
 import sendlogoutroutes from './routes/logoutroute/logoutroutes.ts';
 import kafkamockroute from './routes/kafkamockroute.ts';
 import authwithid from './routes/authroutes/authwithid.ts';
+import { set } from 'mongoose';
 
 app.use("/register", registerroutes); // Register
 app.use("/login", loginroutes); // Login
@@ -49,6 +55,6 @@ app.use('/kafkamock', kafkamockroute); // Kafka test/mock
 app.use('/auth', authwithid); // Auth with ID
 
 // Start the server after all connections and middlewares are set
-app.listen(3000, () => {
+server.listen(3000, () => {
   console.log('Server is running on port 3000');
 });

@@ -11,6 +11,7 @@ final registercheckprovider = AutoDisposeFutureProvider<AuthState>((ref) async{
    final dio = ref.read(dioprovider);
    final usrid = await  storage.read(key: "id");
 
+
    if(usrid != null){
      try{
        final response = await dio.get("/auth/$usrid");
