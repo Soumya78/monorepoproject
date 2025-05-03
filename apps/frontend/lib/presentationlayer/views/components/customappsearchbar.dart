@@ -27,7 +27,7 @@ class _GpaytopsectionState extends ConsumerState<Gpaytopsection> {
     _loadMyUpiId();
   }
   Future<void> _loadMyUpiId() async {
-    final upiId = await ref.read(authprovider.notifier).loadupiid();
+    final upiId = await ref.read(authprovider.notifier).loadmyupiid();
     print(upiId!+" excluded");// async call
     setState(() {
       _myupiid = upiId;
@@ -87,7 +87,7 @@ class _GpaytopsectionState extends ConsumerState<Gpaytopsection> {
           ),
           if (_upisuggestion.isNotEmpty)
             ..._upisuggestion.map((upi) => ListTile(title: Text(upi),onTap: (){
-              context.go(transactionlistscreen);
+              context.go(transactionlistscreen,extra: upi);
               print("Selected upi,$upi");
               _upicontroller.text = upi ;
               setState(() {

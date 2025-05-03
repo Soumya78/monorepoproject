@@ -12,12 +12,12 @@ export const setupsocketio = (server: any) => {
   io.on("connection", (socket) => {
     console.log("Socket connected", socket.id);
 
-    socket.on('search_upi', async ({searchText,excludeupi}) => {
+    socket.on('search_upi', async ({searchText,exculde_upi}) => {
       if (!searchText) return;
 
       try {
         const matchingUpis = await User.find({
-          upiid: { $regex: searchText, $options: "i",$ne:excludeupi }
+          upiid: { $regex: searchText, $options: "i",$ne:exculde_upi }
         }).limit(10);
 
         const upiList = matchingUpis.map((user) => user.upiid);

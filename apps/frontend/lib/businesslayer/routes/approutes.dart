@@ -17,17 +17,7 @@ final routerprovider = Provider<GoRouter>((ref) {
   final token = ref.read(authprovider);
 
   return GoRouter(
-    // refreshListenable: GoRouterRefreshNotifier(ref),
-    // redirect: (context, state) {
-    //   final isloggingin = state.matchedLocation == loginroute;
-    //   final isregistering = state.matchedLocation == initalroute;
-    //   if (token == null && !isloggingin && !isregistering) {
-    //     return initalroute;
-    //   } else if (token != null && (isloggingin || isregistering)) {
-    //     return loginroute;
-    //   }
-    //   return null;
-    // },
+
     routes: <RouteBase>[
       GoRoute(
         path: initalroute,
@@ -36,14 +26,6 @@ final routerprovider = Provider<GoRouter>((ref) {
         },
       ),
 
-      /*
-      // GoRoute(
-      //   path: loginroute,
-      //   builder: (BuildContext context, GoRouterState state) {
-      //     return Loginscreen();
-      //   },
-      // ),
-      */
       GoRoute(
         path: otproute,
         builder: (BuildContext context, GoRouterState state) {
@@ -59,7 +41,7 @@ final routerprovider = Provider<GoRouter>((ref) {
       GoRoute(
         path: transactionlistscreen,
         builder: (BuildContext context, GoRouterState state) {
-          return Transactionlistscreen();
+          return Transactionlistscreen(state.extra.toString());
         },
       ),
     ],

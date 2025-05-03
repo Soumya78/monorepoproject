@@ -20,8 +20,8 @@ const transactionSchema: Schema<Transaction> = new Schema({
   amount: { type: Number, required: true },
   status: { type: String, default: 'PENDING' },
   timestamp: { type: Date, default: new Date()},
-  fromupid: { type: String, required: true ,unique:true},
-  toupiid: { type: String, required: true ,unique:true},
+  fromupid: { type: String, required: true },
+  toupiid: { type: String, required: true },
   currency: { type: String, required: true },
 });
 

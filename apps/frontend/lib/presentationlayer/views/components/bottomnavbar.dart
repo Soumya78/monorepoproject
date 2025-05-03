@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:frontend/businesslayer/provider/authprovider.dart';
+import 'package:frontend/businesslayer/provider/registerapiprovider.dart';
+import 'package:frontend/presentationlayer/views/components/custommodalsheet.dart';
 
 class BottomNavBar extends ConsumerStatefulWidget {
   const BottomNavBar({super.key});
@@ -11,6 +14,10 @@ class BottomNavBar extends ConsumerStatefulWidget {
 class _BottomNavBarState extends ConsumerState<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
+    void show() async{
+      final myupid = await ref.read(authprovider.notifier).loadmyupiid();
+      print(myupid);
+    }
     return BottomAppBar(
       shape: const CircularNotchedRectangle(),
       color: Colors.white,
@@ -26,8 +33,9 @@ class _BottomNavBarState extends ConsumerState<BottomNavBar> {
               children: [
                 ElevatedButton.icon(
                   onPressed: () {
+
                     // Implement Pay action here
-                    print("Pay pressed");
+                    showFullScreenModalBottomSheet(context);
                   },
                   icon: const Icon(Icons.send),
                   label: const Text('Pay'),
@@ -39,6 +47,7 @@ class _BottomNavBarState extends ConsumerState<BottomNavBar> {
                 const SizedBox(width: 8),
                 ElevatedButton.icon(
                   onPressed: () {
+                    show();
                     // Implement Request action here
                     print("Request pressed");
                   },

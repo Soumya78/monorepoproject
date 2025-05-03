@@ -3,6 +3,7 @@ String registerendpoint = "/register";
 String loginendpoint = "/login";
 String logoutendpoint = "/logout";
 String registraioncheckendpoint = "/auth/:id" ;
+String kafkatransaction = '/kafkamock';
 
 
 
@@ -18,3 +19,9 @@ String youremail = "youremail";
 String yourpassword = "password";
 String repeatpassword = "Repeat password";
 String register = "Register";
+
+
+/* <------------- Keys -------------------->    */
+String tokenkey = 'id';
+String myupiidkey = 'upi-id';
+String receiverupidkey = 'reciever-upi-id' ;
