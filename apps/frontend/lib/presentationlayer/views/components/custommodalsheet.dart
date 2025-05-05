@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/businesslayer/provider/authprovider.dart';
 import 'package:frontend/businesslayer/provider/transactionprovider.dart';
+import 'package:frontend/businesslayer/service/socketservice.dart';
+import 'package:frontend/presentationlayer/views/animation/paymentloadinganimation.dart';
+import 'package:frontend/utils/routes.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void showFullScreenModalBottomSheet(BuildContext context) {
@@ -16,8 +20,6 @@ void showFullScreenModalBottomSheet(BuildContext context) {
       final _amountcontroller = TextEditingController();
       return Consumer(
         builder: (context, ref, child) {
-
-
           return DraggableScrollableSheet(
             expand: false,
             initialChildSize: 0.95,
@@ -88,18 +90,43 @@ void showFullScreenModalBottomSheet(BuildContext context) {
                     ],
                   ),
                   floatingActionButton: FloatingActionButton.extended(
-                    onPressed: () async{
+                    onPressed: () async {
+                    final SocketService socketService = SocketService();
+                    socketService.connecttosocket();
+                    socketService.transactionstatusdata();
+                  final status =   socketService.status.value ;
+
+
+
+
                       final reciverupid =
-                     await ref.read(authprovider.notifier).loadreceiverupiid();
-                      final myupid = await ref.read(authprovider.notifier).loadmyupiid();
+                          await ref
+                              .read(authprovider.notifier)
+                              .loadreceiverupiid();
+                      final myupid =
+                          await ref.read(authprovider.notifier).loadmyupiid();
                       Map<String, dynamic> payload = {
                         "amount": double.tryParse(_amountcontroller.text) ?? 0,
                         "fromupid": myupid,
                         "toupiid": reciverupid,
                       };
-                      print(payload);
-                    await  ref.read(transactionprovider(payload));
+                      context.go(paymentloadingscreen);
+
+                      final response = await ref.read(transactionprovider(payload).future);
+                      print(response);
+                      print(status);
+                      try{
+                        if(response == true && status == "APPROVED"){
+
+                          context.go(paymentsuccessscreen);
+                        }else{
+                          context.go(paymentfailurescreen);
+                        }
+                      }catch(e){
+                          context.go(paymentfailurescreen);
+                      }
                     },
+
                     label: Text("Submit"),
                     icon: Icon(Icons.check),
                   ),

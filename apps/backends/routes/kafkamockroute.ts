@@ -3,6 +3,7 @@ const router = express.Router();
 import  {sendTransactionEvent}  from '/Users/soumya/Documents/my-monorepo/apps/backends/kafka/producer/transactionproducer.ts';
 import { v4 as uuidv4 } from 'uuid';
 import mongoose from 'mongoose';
+import Transaction from '../config/model/transactions';
 
 // Define user type
 interface AuthenticatedUser {
@@ -53,7 +54,8 @@ if(!amount || amount <= 0) {
 
   try {
     await sendTransactionEvent(transactionData);
-    res.status(200).send('Transaction sent to Kafka');
+    res.status(200).send(transactionData.status);
+    console.log(transactionData.status);
   } catch (err) {
     console.error('Error sending transaction to Kafka:', err);
     res.status(

@@ -7,7 +7,7 @@ import http from 'http';
 import { connectStatusConsumer } from './kafka/consumer/transactionstatusconsumer.ts';
 import { connectToRabbit } from './services/notifcationservice/notificationservice.ts';
 import connectDB from './config/db.ts';
-import {setupsocketio} from './controllers/realtime/realtimeupi.ts';
+import {setupsocketio} from './controllers/realtime/websocket/realtimeupi.ts';
 
 
 // Initialize the app and Prisma Client

@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:frontend/businesslayer/globaldioinstance.dart';
 import 'package:frontend/utils/strings.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -9,8 +11,8 @@ final transactionprovider = StreamProvider.autoDispose.family<bool,
   return Stream.fromFuture(
       dio.post(baseurl + kafkatransaction, data: payload).then((
           response) {
-        if (response.statusCode == 200) {
-          print(payload);
+        if (response.statusCode == 200 ) {
+    print(response);
       return true ;
         }else{
           throw Exception("Transaction failed");

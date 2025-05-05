@@ -4,6 +4,7 @@ import type {  Consumer, KafkaMessage } from 'kafkajs';
 import mongoose from 'mongoose';
 import {processtransaction }  from '../../services/mockpsp.ts';
 import Transaction from '../../config/model/transactions.ts';
+import { getIoInstance } from '../../controllers/realtime/websocket/realtimeupi.ts';
 
 // Kafka consumer types
 const kafka = new Kafka({
@@ -36,6 +37,13 @@ const connectStatusConsumer = async (): Promise<void> => {
             { $set: { status: statusUpdate.status } },
             { new: true }
           );
+          const io = getIoInstance();
+          if(io && updatedTransaction){
+            io.emit('transaction-status-update',{transactionid:updatedTransaction.transactionId,
+              transactionstatus:updatedTransaction.status,
+            })
+            console.log('Transaction status updated and emitted')
+          }
 
           if (updatedTransaction) {
             console.log('✅ Transaction updated in DB:', updatedTransaction);

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:frontend/utils/strings.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 
@@ -22,14 +23,27 @@ class SocketService {
     });
   }
 
-  void searchupi(String text,String? myupiid, Function(List<String>) onresult) {
+  void searchupi(
+    String text,
+    String? myupiid,
+    Function(List<String>) onresult,
+  ) {
     print("Seraching");
-    socket.emit('search_upi', {'searchText':text,'exculde_upi':myupiid});
+    socket.emit('search_upi', {'searchText': text, 'exculde_upi': myupiid});
     socket.once('upi-results', (data) {
       final List<String> results = List<String>.from(data);
       print(results);
       onresult(results);
     });
+  }
+
+  ValueNotifier<String> status = ValueNotifier("PENDING");
+
+  void transactionstatusdata() {
+    socket.on(
+      'transaction-status-update',
+      (data) => {status.value = data["transactionstatus"]},
+    );
   }
 
   void dispose() {

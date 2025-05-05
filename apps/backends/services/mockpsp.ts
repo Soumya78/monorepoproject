@@ -32,9 +32,9 @@ const processtransaction = async function (transactiondata: TransactionData): Pr
 
 
 
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    await new Promise((resolve) => setTimeout(resolve, 600));
     // Simulating processing time
-    const isapproved = Math.random() > 0.7;
+    const isapproved = Math.random() > 0.9;
     const status = isapproved ? 'APPROVED' : 'REJECTED';
     return {
       transactionId: transactiondata.transactionId,
